@@ -157,4 +157,120 @@ This provides evidence that the difference in conversion rates is unlikely to be
 
 ### Step 8: Calculate the 95% Confidence Interval
 
-A 95% confidence interval helps estimate a reasonable range for
+A 95% confidence interval helps estimate a reasonable range for the actual improvement in conversion rate.
+
+For this experiment:
+
+- Absolute Lift = 1 percentage point
+- Standard Error = Approximately 0.00323
+- Margin of Error = 1.96 × Standard Error = Approximately 0.63 percentage points
+
+**95% Confidence Interval:**
+
+Lower Bound = 1.00 − 0.63 = +0.37 percentage points
+
+Upper Bound = 1.00 + 0.63 = +1.63 percentage points
+
+**Final 95% Confidence Interval: +0.37 to +1.63 percentage points.**
+
+Since the entire interval is above zero, the results support a positive improvement in conversion rate.
+
+### Step 9: Evaluate Guardrail Metrics
+
+Apart from the primary conversion metric, other important business metrics should also be monitored.
+
+These are called Guardrail Metrics.
+
+Examples include:
+
+- Cart Abandonment Rate
+- Payment Failure Rate
+- Average Order Value
+- Customer Experience
+
+These metrics help ensure that the improvement in conversion rate does not negatively affect other important areas of the business.
+
+### Step 10: Business Recommendation
+
+Based on the experiment results:
+
+- Group B achieved a 6% conversion rate compared to 5% in Group A.
+- The new checkout page showed a 1 percentage point absolute lift.
+- The relative improvement was 20%.
+- The p-value was approximately 0.002, indicating statistical significance.
+- The 95% confidence interval was entirely above zero.
+
+**Recommendation:**
+
+The business can consider gradually rolling out the new checkout page while continuously monitoring guardrail metrics and overall business performance.
+
+---
+
+## 5. Important Statistical Concepts Covered
+
+Through this project, I studied and understood the following concepts:
+
+- A/B Testing
+- Control Group and Treatment Group
+- Null and Alternative Hypotheses
+- Hypothesis Testing
+- Minimum Detectable Effect (MDE)
+- Sample Size Calculation
+- Statistical Significance
+- P-value
+- Significance Level (Alpha)
+- Statistical Power
+- Type I and Type II Errors
+- Standard Error
+- Confidence Interval
+- Z-Test
+- T-Test
+- Chi-Square Test
+- Randomization
+- Sample Ratio Mismatch (SRM)
+- Guardrail Metrics
+
+---
+
+## 6. Key Learnings
+
+This project helped me understand how statistical concepts are applied to real business problems.
+
+My key learnings include:
+
+1. How to design an A/B testing experiment.
+2. How to define business objectives and measurable KPIs.
+3. How to calculate and compare purchase conversion rates.
+4. How to interpret absolute lift and relative lift.
+5. How to understand p-values and statistical significance.
+6. How to calculate and interpret confidence intervals.
+7. How to convert statistical findings into business recommendations.
+8. Why guardrail metrics are important when evaluating an experiment.
+
+---
+
+## 7. Project Documentation
+
+The complete project documentation is available in the PDF file included in this repository.
+
+**File:** `AB-Testing-Statistical-Analysis.pdf`
+
+---
+
+## 8. Acknowledgement
+
+The concepts and learning approach presented in this project are inspired by the A/B Testing educational content of **Rishabh Mishra** on YouTube.
+
+The project has been organized and documented for learning purposes, with a focus on understanding statistical concepts, experiment design, calculations, and business interpretation.
+
+**Credit:** Rishabh Mishra – YouTube Educational Content.
+
+---
+
+## 9. Author
+
+**Ishan Vardan**  
+Student, Indian Institute of Technology Patna
+
+**Domain:** Data Analytics & Business Intelligence  
+**Year:** 2026
